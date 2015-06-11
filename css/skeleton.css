@@ -1,0 +1,454 @@
+/*
+* Skeleton V2.0.2
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/15/2014
+*/
+
+
+/* Table of contents
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+- Grid
+- Base Styles
+- Typography
+- Links
+- Lists
+- Spacing
+- Clearing
+- My Styles
+- Animations
+- Media Queries
+*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);/*Load my Google Font at the Start*/
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container {
+  position: relative; 
+  width: 100%; 
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+.column { 
+  width: 100vw; 
+  float: left; 
+  box-sizing: border-box;
+  padding: 3.6rem;
+  }
+
+.row {
+  display: flex;
+}
+
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+
+  .half.column { width: 50%; margin-left: 0; padding: 8.4rem 9.027777777777777% 9.6rem 9.027777777777777%;}
+
+
+}
+
+
+/*baseline for testing*/ 
+/*body{
+  background-image:url("../images/grid.png");
+  background-repeat: repeat;}*/
+
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton 
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+
+html { 
+  font-size: 62.5%; 
+  background-color:#000; } 
+body {
+  font-size: 1.5em; /* currently ems because chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f3f4f8;}
+p, ul, ol, li, h3 {
+  color:#313131;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, { 
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-weight: 700; }
+h1 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0;}
+h2 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0;}
+h3 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding:0.6rem 0 0.6rem 0;}
+h4 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0; font-weight: 400;}
+h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0; margin-top: 0;font-weight: 400; font-style: italic; text-align: left;}
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0;}
+p  { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0;}
+/*padding on tags helps align baseline of type with the base of the em box*/
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 2.25rem; }
+  h5 { font-size: 1.5rem; }
+  h6 { font-size: 1.5rem; }
+  p  { font-size: 1.5rem; }
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a { 
+  color: #f3f4f8;
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  white-space: nowrap;
+  -webkit-transition: background-color 0.4s, border-color 0.4s, color 0.4s;
+  transition: background-color 0.4s, border-color 0.4s, color 0.4s;
+}
+
+a:hover, a:focus { 
+  color: #a7a9ac; 
+  cursor: pointer;
+  }
+
+
+p a { 
+  color: #313131;
+  border-bottom: 0.1rem solid #bbb;
+}
+
+p a:hover, p a:focus { 
+  color: #313131; 
+  cursor: pointer;
+  border-color: #c8c8cc;
+  background-color: #c8c8cc;
+}
+
+h5 a {
+  color: #777;
+  border-bottom: 0.1rem solid #a7a9ac;
+
+}
+
+h5 a:hover {
+  color: #a7a9ac;
+  cursor: pointer;
+  border-color: #333;
+  background-color: #333;
+
+}
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { 
+  list-style: disc inside; }
+ol { 
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 3.375rem;
+  margin:0 0 2.4rem 0; }
+li {
+  padding: 0.6rem 0 0.6rem 0; }
+
+.item ul {list-style: none;}
+.item li, .item ul {padding: 0;}
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+pre,
+blockquote,
+form,
+dl,
+figure,
+table,
+p,
+form {
+  margin-bottom: 2.4rem; }
+p {
+  margin-top: 0;}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf { 
+  content: "";
+  display: table;
+  clear: both; }
+
+
+  /* My Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*SVG Logo Container*/
+.logo{
+  height:2.4rem;
+  width:3.6822rem;
+}
+/*svg paths*/
+.svgLogo path {
+  fill:#f3f4f8;
+}
+.svgLogo:hover path, .logo:focus .svgLogo path {
+  fill:#a7a9ac;
+}
+/*Project and article pages========================*/
+/*hero section*/
+.half.column.mainPhoto{
+  padding:0;
+  display: flex;
+  height:100vh;
+}
+
+.mainPhoto > img{
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.title{
+  height:100vh;
+}
+.title > h1{
+  margin-top: 30vh;
+}
+
+/*content section*/
+
+/*images*/
+.column.imageContainer {
+  display:flex;
+  padding:0;
+}
+
+.imageContainer img{
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/*full width images*/
+.imageContainer:only-child {
+  display:block;
+  font-size: 0;
+}
+
+.imageContainer:only-child img {
+  height:auto;
+  width:100vw;
+}
+
+/*text blocks*/
+.text {
+  background-color: #f3f4f8;
+}
+
+.alpha .text {
+  padding-bottom: 2.4rem;
+}
+
+.omega .text{
+  padding-top: 2.4rem;
+}
+/*pull quotes*/
+.pull div {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: 7.2rem 0 8.4rem 0;
+  text-align: center;
+}
+
+.quote {
+  text-indent: -1rem;
+  text-align: left;
+  margin-bottom: 0.6rem;
+}
+
+/*ending tombstone mark*/
+.therefore{
+  font-size: 3rem;
+  color:#a7a9ac;
+}
+
+
+/*work and Thouhgts pages====================*/
+.tall{
+  height:100vh;
+}
+.backdrop{
+  height: 100vh;
+  width:50vw;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  opacity: 0;
+    -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.visable{
+  opacity:1;
+}
+
+/*right align thoughts page*/
+.right{
+  right:0;
+  left:auto;
+}
+
+.rightAligned{
+  text-align: right;
+  float: right;
+}
+
+
+/*Grade*/
+.diagram{
+
+
+}
+
+/* Animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*Animation Classes*/
+
+.scene .scene_element {
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.scene .fadein {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+.scene .holder {
+  -webkit-animation-name: ;
+          animation-name: ;
+}
+
+.scene .slideright {
+  -webkit-animation-name: slideRight;
+          animation-name: slideRight;
+}
+
+.scene .slideleft {
+  -webkit-animation-name: slideLeft;
+          animation-name: slideLeft;
+}
+
+.scene .slidedown {
+  -webkit-animation-name: slideDown;
+          animation-name: slideDown;
+}
+
+.scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse;
+}
+
+
+/*Keyframes*/
+
+/*Fade=======================*/
+@-webkit-keyframes fadeIn {
+  0%   {opacity: 0; }
+  100% {opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0%   {opacity: 0; }
+  100% {opacity: 1; }
+}
+
+/*Slide To the Right=======================*/
+@-webkit-keyframes slideRight {
+  0%   { -webkit-transform: translate3d(-50%, 0, 0); visibility: visible;}
+  100% { -webkit-transform: translate3d(0, 0, 0);}
+}
+
+@keyframes slideRight {
+  0%   { transform: translate3d(-50%, 0, 0); visibility: visible;}
+  100% { transform: translate3d(0, 0, 0);}
+}
+
+/*Slide To the Left=======================*/
+@-webkit-keyframes slideLeft {
+  0%   { -webkit-transform: translate3d(50%, 0, 0); visibility: visible;}
+  100% { -webkit-transform: translate3d(0, 0, 0);}
+}
+
+@keyframes slideLeft {
+  0%   { transform: translate3d(50%, 0, 0); visibility: visible;}
+  100% { transform: translate3d(0, 0, 0);}
+}
+
+/*Slide Down=======================*/
+@-webkit-keyframes slideDown {
+  0%   { -webkit-transform: translate3d(0, -100%, 0); visibility: visible;}
+  100% { -webkit-transform: translate3d(0, 0, 0);}
+}
+
+@keyframes slideDown {
+  0%   { transform: translate3d(0, -100%, 0); visibility: visible;}
+  100% { transform: translate3d(0, 0, 0);}
+}
+
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries 
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it 
+there. 
+*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

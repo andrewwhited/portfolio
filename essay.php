@@ -18,7 +18,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
   <div class="row alpha">
-    <div class="half column imageContainer">
+    <div class="half column photo">
       <img src="images/2.bmp">
     </div><!--End Column-->
     <div class="half column text">
@@ -27,7 +27,7 @@
     </div><!--End column -->
   </div><!--End Row ===============-->
   <div class="row alpha omega">
-    <div class="half column imageContainer">
+    <div class="half column photo">
       <img src="images/1.bmp">
     </div><!--End Column-->
     <div class="half column text">
@@ -36,7 +36,7 @@
     </div><!--End column -->
   </div><!--End Row  ===============-->
   <div class="row omega">
-    <div class="half column imageContainer">
+    <div class="half column photo">
       <img src="images/3.bmp">
     </div><!--End Column-->
     <div class="half column text">
@@ -51,7 +51,7 @@
     </div><!--End column -->
   </div><!--End Row  ===============-->
   <div class="row">
-    <div class="half column imageContainer">
+    <div class="half column photo">
       <img src="images/img2.jpg">
     </div>
     <div class="half column text">
@@ -71,12 +71,12 @@
     </div>
   </div><!--End Row  ===============-->
    <div class="row">
-    <div class="column imageContainer">
+    <div class="column photo">
       <img src="images/photo.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
-    <div class="half column imageContainer">
+    <div class="half column photo">
       <img src="images/2.bmp">
     </div><!--End Column-->
     <div class="half column text">

@@ -216,7 +216,18 @@ p {
 /*Project and article pages========================*/
 /*hero section*/
 
+<<<<<<< Updated upstream
 .title:not(.photo) {
+=======
+.mainPhoto > img{
+  object-fit: cover;
+
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.title{
+>>>>>>> Stashed changes
   height:100vh;
 }
 

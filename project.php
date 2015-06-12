@@ -22,7 +22,11 @@
       <h3>Problem</h3>
       <p>This poster was part of a study on <a href="http://en.wikipedia.org/wiki/Semiotics">semiotics.</a> I think the function of communication is an interesting and important topic for designers. The aim of this project was to explore the various levels of meaning surrounding a word and to create a poster that represented my findings. This poster was a way to frame my research; it exists as more of a study than a traditionally functional piece of design. As a catalyst, I picked a word from a hat to use for the project.</p>
     </div><!--End column -->
+<<<<<<< Updated upstream
     <div class="half column photo">
+=======
+    <div class="half column imageContainer">
+>>>>>>> Stashed changes
       <img src="images/final.jpg">
     </div><!--End Column-->
   </div><!--End Row ===============-->
@@ -36,7 +40,11 @@
       <h3>Connotation</h3>
       <p>The term grade can be used in many contexts as both a verb or a noun. The first use that came to mind for me was the grading systems that rate the difficulty of rock climbs. The word grade also has specific meanings in the fields of education, engineering, mathematics, and healthcare among others. By looking into the different applications of the word I was able to synthesize my own definition:</p>        
     </div><!--End column -->
+<<<<<<< Updated upstream
     <div class="half column photo">
+=======
+    <div class="half column imageContainer">
+>>>>>>> Stashed changes
       <img src="images/final.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
@@ -55,6 +63,7 @@
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
+<<<<<<< Updated upstream
     <div class="half column photos">
       <img src="images/top.jpg">
     </div><!--End Column--> 
@@ -72,6 +81,20 @@
   </div><!--End Row  ===============-->
     <div class="row">
     <div class="column photo">
+=======
+    <div class="half column imageContainer">
+      <img src="images/final.jpg">
+    </div><!--End Column--> 
+    <div class="half column imageContainer">
+      <img src="images/final.jpg">
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+    <div class="row">
+    <div class="half column imageContainer">
+      <img src="images/final.jpg">
+    </div><!--End Column--> 
+    <div class="half column imageContainer">
+>>>>>>> Stashed changes
       <img src="images/final.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
@@ -82,7 +105,11 @@
       <p>In order to best present and showcase the concept, I wanted the poster to feel structured and quiet. To accomplish this, I took a formal approach to the page shape, spacing, and type by strictly implementing a ratio to create all of my measurements. I decided to light the rocks in a way that would highlight their individual details and bring out their differences.</p>
       <span class="therefore">&there4;</span><!--Ending Tombstone-->
     </div><!--End column -->
+<<<<<<< Updated upstream
     <div class="half column photo">
+=======
+    <div class="half column imageContainer">
+>>>>>>> Stashed changes
       <img src="images/final.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->

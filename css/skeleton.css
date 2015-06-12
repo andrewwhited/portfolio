@@ -218,19 +218,6 @@ p {
 }
 /*Project and article pages========================*/
 /*hero section*/
-.half.column.mainPhoto{
-  padding:0;
-  display: flex;
-  height:100vh;
-}
-
-.mainPhoto > img{
-  object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
 .title{
   height:100vh;
 }
@@ -241,27 +228,18 @@ p {
 /*content section*/
 
 /*images*/
-.column.imageContainer {
-  display:flex;
+.column.photo {
   padding:0;
-}
-
-.imageContainer img{
-  object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-/*full width images*/
-.imageContainer:only-child {
-  display:block;
+  background-size: cover;
+  background-position: center;
   font-size: 0;
 }
 
-.imageContainer:only-child img {
+/*image followed by anither image column and full width images need to be img tags in order to have proper height*/
+
+.photo img {
   height:auto;
-  width:100vw;
+  width:100%;
 }
 
 /*text blocks*/

@@ -17,6 +17,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/polyfill.object-fit.css">
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,3 +33,4 @@
 <div  id="main"  class="scene"><!--smoothstate container-->
   <!--This JS needs to be within the smoothstate container in order to fire once the page is switched out-->
     <script defer src="js/scripts.js"></script>
+

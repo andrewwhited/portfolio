@@ -8,7 +8,8 @@
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
       <h1>User Testing vs. <br>User Teaching</h1>
     </div><!--End column -->
-    <div class="half column title photo" style="background-image: url(images/final.jpg);">
+    <div class="half column title photo">
+      <img src="images/final.jpg">
     </div><!--End Comlumn-->
   </div><!--End Row ===============-->
 </div><!--End Hero Container-->
@@ -54,11 +55,19 @@
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
-    <div class="half column photo">
-      <img src="images/final.jpg">
+    <div class="half column photos">
+      <img src="images/top.jpg">
     </div><!--End Column--> 
-    <div class="half column photo">
-      <img src="images/final.jpg">
+    <div class="half column photos">
+      <img src="images/img.jpg">
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+    <div class="row">
+    <div class="half column photos">
+      <img src="images/img.jpg">
+    </div><!--End Column--> 
+    <div class="half column photos">
+      <img src="images/img2.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
     <div class="row">

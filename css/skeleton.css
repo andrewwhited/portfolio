@@ -41,18 +41,15 @@
   padding: 3.6rem;
   }
 
+
+/* For devices larger than 800px */
+@media (min-width: 800px) {
+
+.half.column { width: 50%; margin-left: 0; padding: 8.4rem 9.027777777777777% 9.6rem 9.027777777777777%;}
+
 .row {
-  display: flex;
+  display: -webkit-flex;  display: -ms-flexbox;  display: flex;
 }
-
-
-/* For devices larger than 400px */
-@media (min-width: 400px) {}
-
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-
-  .half.column { width: 50%; margin-left: 0; padding: 8.4rem 9.027777777777777% 9.6rem 9.027777777777777%;}
 
 
 }
@@ -100,7 +97,7 @@ p  { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0
 /*padding on tags helps align baseline of type with the base of the em box*/
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   h1 { font-size: 2.25rem; }
   h2 { font-size: 2.25rem; }
   h3 { font-size: 1.5rem; }
@@ -218,50 +215,70 @@ p {
 }
 /*Project and article pages========================*/
 /*hero section*/
-.half.column.mainPhoto{
-  padding:0;
-  display: flex;
+
+.title:not(.photo) {
   height:100vh;
 }
 
-.mainPhoto > img{
-  object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.title{
-  height:100vh;
-}
 .title > h1{
   margin-top: 30vh;
+}
+
+@media (min-width: 800px) {
+  .title{
+    height:100vh;
+  }
 }
 
 /*content section*/
 
 /*images*/
-.column.imageContainer {
-  display:flex;
-  padding:0;
-}
 
-.imageContainer img{
-  object-fit: cover;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-/*full width images*/
-.imageContainer:only-child {
+.column.photo{
   display:block;
+  padding:0;
   font-size: 0;
 }
 
-.imageContainer:only-child img {
+.photo img {
+  width:100%;
   height:auto;
-  width:100vw;
+}
+
+/* For devices larger than 800px */
+@media (min-width: 800px) {
+  .column.photo {
+    display: -webkit-flex;  display: -ms-flexbox;  display: flex;
+  }
+
+  .photo img {
+    object-fit:cover;
+    min-height: 100%;
+    min-width: 100%;
+    overflow:hidden;
+  }
+
+  /*full width images*/
+  .photo:only-child {
+    display: block;
+  }
+
+  .photo:only-child img {
+    width:100%;
+    height:auto;
+  }
+}
+
+/*images next to each other (need to be same height)*/
+.column.photos {
+  padding:0;
+  font-size: 0;
+}
+
+.photos img{
+  width:100%;
+  height: auto;
+
 }
 
 /*text blocks*/
@@ -442,7 +459,7 @@ there.
 @media (min-width: 400px) {
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 800px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}

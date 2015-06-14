@@ -3,7 +3,7 @@
 <!-- main
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <div class="container">
-    <div class="row">
+    <div class="row right">
       <div class="half column item  scene_element slidedown">
         <ul>
           <li><h2><a href="essay.php" class="item" data-img="k.jpg">The Means to the Means to the End</a></h1></li>
@@ -12,9 +12,9 @@
           <li><h2><a href="essay.php" class="item" data-img="2.bmp">The Underlying Determinism of Big Data</a></h1></li>
         </ul>
      </div> <!-- End column -->
-     <div class="backdrop right" id="hey"></div>
-      <div class="half column">
-        <h1 class="rightAligned">Thoughts</h1>
+      <div class="half column preview">
+        <h1>Thoughts</h1>
+        <div class="backdrop"></div>
       </div> <!-- End column -->
     </div> <!-- End row  ===============-->
   </div> <!-- End container -->

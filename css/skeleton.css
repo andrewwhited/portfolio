@@ -7,7 +7,6 @@
 * 12/15/2014
 */
 
-
 /* Table of contents
 –––––––––––––––––––––––––––––––––––––––––––––––––– 
 - Grid
@@ -38,7 +37,7 @@
   width: 100vw; 
   float: left; 
   box-sizing: border-box;
-  padding: 3.6rem;
+  padding: 4.8rem;
   }
 
 
@@ -89,7 +88,7 @@ h1, h2, h3, {
 h1 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0;}
 h2 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0;}
 h3 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding:0.6rem 0 0.6rem 0;}
-h4 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0; font-weight: 400;}
+h4 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding:0.6rem 0 0.6rem 0; font-weight: 400;}
 h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0; margin-top: 0;font-weight: 400; font-style: italic; text-align: left;}
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0;}
 p  { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0 0.6rem 0;}
@@ -97,13 +96,7 @@ p  { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; padding: 0.6rem  0
 
 /* Larger than phablet */
 @media (min-width: 800px) {
-  h1 { font-size: 2.25rem; }
-  h2 { font-size: 2.25rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 2.25rem; }
-  h5 { font-size: 1.5rem; }
-  h6 { font-size: 1.5rem; }
-  p  { font-size: 1.5rem; }
+  h4 { font-size: 2.25rem; line-height: 1.333333333;  letter-spacing: 0; padding:0.1rem 0 1.1rem 0;}
 }
 
 
@@ -117,7 +110,7 @@ a {
   position: relative;
   display: inline-block;
   vertical-align: bottom;
-  white-space: nowrap;
+  white-space: normal;
   -webkit-transition: background-color 0.4s, border-color 0.4s, color 0.4s;
   transition: background-color 0.4s, border-color 0.4s, color 0.4s;
 }
@@ -165,7 +158,8 @@ ol, ul {
   padding-left: 3.375rem;
   margin:0 0 2.4rem 0; }
 li {
-  padding: 0.6rem 0 0.6rem 0; }
+  padding: 0.6rem 0 0.6rem 0;
+  word-wrap: break-word; }
 
 .item ul {list-style: none;}
 .item li, .item ul {padding: 0;}
@@ -212,6 +206,7 @@ p {
 .svgLogo:hover path, .logo:focus .svgLogo path {
   fill:#a7a9ac;
 }
+
 /*Project and article pages========================*/
 /*hero section*/
 
@@ -285,18 +280,20 @@ p {
   background-color: #f3f4f8;
 }
 
-.alpha .text {
-  padding-bottom: 2.4rem;
-}
+@media (min-width: 800px) {
+  .alpha .text {
+    padding-bottom: 2.4rem;
+  }
 
-.omega .text{
-  padding-top: 2.4rem;
+  .omega .text{
+    padding-top: 2.4rem;
+  }
 }
 /*pull quotes*/
 .pull div {
   margin: 0 auto;
-  max-width: 72rem;
-  padding: 7.2rem 0 8.4rem 0;
+  max-width: 42rem;
+  padding: 1.2rem 4.8rem 2.4rem 4.8rem;
   text-align: center;
 }
 
@@ -304,6 +301,13 @@ p {
   text-indent: -1rem;
   text-align: left;
   margin-bottom: 0.6rem;
+}
+
+@media (min-width: 800px) {
+  .pull div {
+    padding: 7.2rem 4.8rem 8.4rem 4.8rem;
+    max-width: 72rem;
+  }
 }
 
 /*ending tombstone mark*/
@@ -314,32 +318,73 @@ p {
 
 
 /*work and Thouhgts pages====================*/
-.tall{
-  height:100vh;
-}
-.backdrop{
-  height: 100vh;
-  width:50vw;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index: -1;
-  opacity: 0;
-    -webkit-transition: opacity 0.75s;
-  transition: opacity 0.75s;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.preview{
+    height:18vh;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#000;
+    z-index:2;
+  }
+
+  .right .preview{
+    left:auto;
+    right:0;
+  }
+
+  .column.item{
+    margin-top: 20vh;
+    padding-right:2.4rem;
+  }
+
+@media (min-width: 800px) {
+  .preview{
+    height:100vh;
+  }
+
+  .column.item{
+  margin-left:50vw;
+  margin-top: 0;
+  }
+
+  .right h1{
+  text-align: right
 }
 
-.visable{
-  opacity:1;
+}
+
+.right .column.item{
+  margin-left:0;
+}
+
+.backdrop{
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .backdrop{
+    display:block;
+    height: 100vh;
+    width:50vw;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+      -webkit-transition: opacity 0.75s;
+    transition: opacity 0.75s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .visable{
+    opacity:1;
+  }
 }
 
 /*right align thoughts page*/
 .right{
-  right:0;
-  left:auto;
+
 }
 
 .rightAligned{

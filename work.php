@@ -4,9 +4,9 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <div class="container">
     <div class="row">
-      <div class="half column tall">
-        <div class="backdrop"></div>
+      <div class="half column preview">
         <h1>Work</h1>
+        <div class="backdrop"></div>
       </div> <!-- End column -->
       <div class="half column item scene_element slidedown">
         <ul>

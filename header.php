@@ -17,7 +17,6 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/polyfill.object-fit.css">
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->

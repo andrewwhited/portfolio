@@ -4,7 +4,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container scene_element slideleft">
   <div class="row">
-    <div class="half column mainPhoto">
+    <div class="half column title photo">
       <img src="images/k.jpg">
     </div>
     <div class="half column title  scene_element slidedown">
@@ -19,7 +19,7 @@
 <div class="container">
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/2.bmp">
+      <img src="images/k.jpg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Chapter</h3>
@@ -28,7 +28,7 @@
   </div><!--End Row ===============-->
   <div class="row alpha omega">
     <div class="half column photo">
-      <img src="images/1.bmp">
+      <img src="images/k.jpg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Chapter</h3>
@@ -37,7 +37,7 @@
   </div><!--End Row  ===============-->
   <div class="row omega">
     <div class="half column photo">
-      <img src="images/3.bmp">
+      <img src="images/k.jpg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Chapter</h3>
@@ -52,7 +52,7 @@
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="half column photo">
-      <img src="images/img2.jpg">
+      <img src="images/k.jpg">
     </div>
     <div class="half column text">
       <h3>Sub Chapter</h3>
@@ -65,6 +65,14 @@
       <p>velit vel felis suscipit faucibus. Curabitur at augue in libero pretium hendrerit. Etiam mi sem, blandit in convallis at, scelerisque efficitur erat. Morbi ornare placerat placerat. Integer vitae sapien neque.Mauris eu tortor mauris. Etiam tristique finibus enim id pretium. Nunc sit amet ex in ligula ullamcorper scelerisque nec sit amet libero. Nam et ornare<br><br>velit vel felis suscipit faucibus. Curabitur at augue in libero pretium hendrerit. Etiam mi sem, blandit in convallis at, scelerisque efficitur erat. Morbi ornare placerat placerat. Integer vitae sapien neque.Mauris eu tortor mauris. Etiam tristique finibus enim id pretium. Nunc sit amet ex in ligula ullamcorper scelerisque nec sit amet libero. Nam et ornare</p>
     </div><!--End column -->
   </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="half column photos">
+      <img src="images/k.jpg">
+    </div><!--End column -->
+    <div class="half column photos">
+      <img src="images/k.jpg">
+    </div><!--End column -->
+  </div><!--End Row  ===============-->
   <div class="row pull">
     <div>
       <h4>ok</h4>
@@ -72,12 +80,12 @@
   </div><!--End Row  ===============-->
    <div class="row">
     <div class="column photo">
-      <img src="images/photo.jpg">
+      <img src="images/k.jpg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="half column photo">
-      <img src="images/2.bmp">
+      <img src="images/k.jpg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Chapter</h3>

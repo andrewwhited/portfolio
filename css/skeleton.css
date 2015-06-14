@@ -226,7 +226,7 @@ p {
 /*make title image on essay pages appear after title text */
 @media (max-width:799px) {
   .title:not(.photo){
-    position:fixed;
+    position:absolute;
     top:0;
   }
   .title.photo {

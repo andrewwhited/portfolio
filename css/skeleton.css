@@ -234,6 +234,20 @@ p {
   }
 }
 
+/*Make sure text is last on work pages*/
+
+@media (max-width: 799px) {
+  .row:last-child:not(:only-child){
+    display:-webkit-flex; display:-ms-flexbox; display:flex;
+    flex-wrap:wrap;
+    -webkit-flex-wrap:wrap;
+  }
+
+  .row:last-child:not(:only-child) .text{
+    order:2;
+    -webkit-order:2;
+  }
+}
 
 /*content section*/
 

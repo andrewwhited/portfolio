@@ -206,6 +206,37 @@ p {
   fill:#a7a9ac;
 }
 
+/*Index*/
+nav a{
+  text-align: right;
+  float: right;
+  margin-right:2.4rem;
+}
+
+nav a:first-child{
+  margin-right: 0;
+}
+
+.big h1{
+  font-size: 2.25rem
+}
+@media(min-width: 570px){
+  .big h1{
+    font-size: 5.0625rem;
+  }
+}
+
+@media(min-width: 800px) {
+  .big {
+    padding: 0 9.027777777777777% ;
+  }
+}
+
+@media(min-width: 862px) {
+  .big h1{
+    font-size: 7.5983rem;
+  }
+}
 /*Project and article pages========================*/
 /*hero section*/
 

@@ -3,13 +3,17 @@
 <div class="container scene_element fadein">
 	<div class="row">
 		<div class="half column">
-			<h1>Andrew Whited</h1>
+			<a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
 		</div><!--End column -->
-		<div class="half column">
-			<h2><a href="work.php">Work</a></h2>
-			<h2><a href="thoughts.php">Thoughts</a></h2>
-			<h2><a href="about.php">About</a></h2>
-		</div><!--End column -->
+		<nav class="half column">
+			<a href="thoughts.php">Thoughts</a>
+			<a href="work.php">Work</a>
+			<a href="about.php">About</a>
+		</nav><!--End column -->
+	</div><!--End Row -->
+	<div class="row">
+		<div class="column big">
+			<h1>Howdy, my name is<br/>Andrew Whited.</h1>
 	</div><!--End Row -->
 </div>
 

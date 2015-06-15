@@ -207,6 +207,18 @@ p {
 }
 
 /*Index*/
+
+nav {
+  margin-top: -2.4rem;
+}
+
+@media(max-width: 350px){
+  nav {
+    position: absolute;
+    margin-top: 2.4rem;
+  }
+}
+
 nav a{
   text-align: right;
   float: right;
@@ -228,8 +240,12 @@ nav a:first-child{
 
 @media(min-width: 800px) {
   .big {
-    padding: 0 9.027777777777777% ;
+    padding:0 9.027777777777777% ;
   }
+  .header {
+    padding: 8.4rem 9.027777777777777% 4.8rem 9.027777777777777%;
+  }
+
 }
 
 @media(min-width: 862px) {

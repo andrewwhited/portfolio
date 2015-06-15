@@ -231,7 +231,7 @@ nav a:first-child{
 
 .big h1{
   font-size: 2.25rem;
-  padding-top:10vh;
+  padding-top:5vh;
 }
 @media(min-width: 570px){
   .big h1{

@@ -110,8 +110,8 @@ a {
   display: inline-block;
   vertical-align: bottom;
   white-space: normal;
-  -webkit-transition: background-color 0.4s, border-color 0.4s, color 0.4s;
-  transition: background-color 0.4s, border-color 0.4s, color 0.4s;
+  -webkit-transition: background-color 0.4s, border-color 0.4s, color 0.4s, opacity 0.4s;
+  transition: background-color 0.4s, border-color 0.4s, color 0.4s, opacity 0.4s;
 }
 
 a:hover, a:focus { 
@@ -206,7 +206,7 @@ p {
   fill:#a7a9ac;
 }
 
-/*Index*/
+/*Index========================*/
 
 nav {
   margin-top: -2.4rem;
@@ -254,6 +254,67 @@ nav a:first-child{
     font-size: 7.5983rem;
   }
 }
+
+/*About Me========================*/
+
+@media(min-width: 800px){
+  .contact{display: -webkit-flex;display: -ms-flexbox;display: flex;}
+  .info{align-self: center;
+    -webkit-align-self:center;
+    
+  }
+}
+
+.info h2 {
+  white-space: normal;
+  word-wrap:break-word;
+}
+
+.resume{
+  background-color: #000;
+  display: -webkit-flex;display: -ms-flexbox;display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.column.places{
+  padding:0;
+}
+
+.places a{
+  height:16rem;
+  width:100.1%;
+  display: -webkit-flex;display: -ms-flexbox;display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.places a:hover{
+  opacity: 0.9;
+}
+
+/*logos*/
+.placeLogo {
+  fill:#f3f4f8;
+  height:50%;
+}
+.ibm{
+  background-color: #00649d;
+}
+.aiga{
+  background-color: #464646;
+}
+.icon{
+  background-color: #000;
+}
+.gdes{
+  background-color: #dd550c;
+}
+
 /*Project and article pages========================*/
 /*hero section*/
 
@@ -390,7 +451,7 @@ nav a:first-child{
 }
 
 
-/*work and Thouhgts pages====================*/
+/*work and Thouhgts pages========================*/
 .preview{
     height:18vh;
     position:fixed;

@@ -39,7 +39,7 @@
     <div class="half column places">
     	<a href="http://www.ibm.com/design/" target="_blank" class="ibm"><?php include('images/IBM.php'); ?></a>
     	<a href="http://austin.aiga.org/" target="_blank" class="aiga"><?php include('images/AIGA.php'); ?></a>
-    	<a href="http://www.iconologic.com/" target="_blank" class="icon"><?php include('images/IBM.php'); ?></a>
+    	<a href="http://www.iconologic.com/" target="_blank" class="icon"><?php include('images/ICON.php'); ?></a>
     	<a href="http://digd.auburn.edu/graphicdesign/" target="_blank" class="gdes"><?php include('images/GDES.php'); ?></a>
     </div><!--End column -->
   </div><!--End Row ===============-->

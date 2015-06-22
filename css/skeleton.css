@@ -384,7 +384,7 @@ nav a:first-child{
 
   .photo img {
     object-fit:cover;
-    height: 100%;
+    min-height: 100%;
     min-width: 100%;
     overflow:hidden;
   }

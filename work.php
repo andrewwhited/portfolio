@@ -11,7 +11,7 @@
       <div class="half column item scene_element slidedown">
         <ul>
           <li><h2><a href="project.php" class="item" data-img="k.jpg">MARTA</a></h1></li>
-          <li><h2><a href="project.php" class="item" data-img="img.jpg">Grade</a></h1></li>
+          <li><h2><a href="project.php" class="item" data-img="grade/1.jpg">Grade</a></h1></li>
           <li><h2><a href="project.php" class="item" data-img="final.jpg">Impact Alloy</a></h1></li>
           <li><h2><a href="project.php" class="item" data-img="2.bmp">Hungry Otter</a></h1></li>
           <li><h2><a href="project.php" class="item" data-img="1.bmp">Plains Peak</a></h1></li>

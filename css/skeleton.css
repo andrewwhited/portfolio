@@ -382,7 +382,13 @@ nav a:first-child{
     display: -webkit-flex;  display: -ms-flexbox;  display: flex;
   }
 
-  .photo img {
+  .photobox {
+    display: block;
+    height:100%;
+    width:100%;
+  }
+
+  .photobox img {
     object-fit:cover;
     min-height: 100%;
     min-width: 100%;

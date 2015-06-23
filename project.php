@@ -67,7 +67,9 @@
       <span class="therefore">&there4;</span><!--Ending Tombstone-->
     </div><!--End column -->
     <div class="half column photo">
-      <img src="images/grade/4_small.jpg">
+      <div class="photobox">
+        <img src="images/grade/4.jpg">
+      </div>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
 </div><!--End Content Container-->

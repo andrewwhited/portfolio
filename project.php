@@ -14,7 +14,7 @@
                 images/grade/1L.jpg   1920w,
                 images/grade/1M.jpg  1200w,
                 images/grade/1S.jpg  600w"
-        sizes="(min-width: 800px) 60vw, 100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
         src="images/grade/1M.jpg"
         alt="Grade Poster" />
     </div><!--End Comlumn-->
@@ -63,7 +63,7 @@
                 images/grade/3L.jpg   1920w,
                 images/grade/3M.jpg  1200w,
                 images/grade/3S.jpg  600w"
-        sizes="(min-width: 800px) 60vw, 100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
         src="images/grade/3M.jpg"
         alt="Grade Poster" />
     </div><!--End Column-->
@@ -93,7 +93,7 @@
                 images/grade/4L.jpg   1920w,
                 images/grade/4M.jpg  1200w,
                 images/grade/4S.jpg  600w"
-        sizes="(min-width: 800px) 60vw, 100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
         src="images/grade/4M.jpg"
         alt="Grade Poster" />  
     </div><!--End Column-->

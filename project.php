@@ -6,7 +6,7 @@
   <div class="row">
     <div class="half column title scene_element slidedown">
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
-      <h1>Grade</h1>
+      <h1>Color Blind</br>Research</br>Foundation</h1>
     </div><!--End column -->
     <div class="half column title photo">
       <img 
@@ -26,36 +26,38 @@
 <div class="container">
   <div class="row">
     <div class="half column text">
-      <h3>Problem</h3>
-      <p>This poster was part of a study on <a href="http://en.wikipedia.org/wiki/Semiotics">semiotics.</a> I think the function of communication is an interesting and important topic for designers. The aim of this project was to explore the various levels of meaning surrounding a word and to create a poster that represented my findings. This poster was a way to frame my research; it exists as more of a study than a traditionally functional piece of design. As a catalyst, I picked a word from a hat to use for the project.</p>
+      <h3>Subject</h3>
+      <p>Since this was an open ended project, I wanted to pick a subject that I would enjoy spending time researching and learning about. The only requirements were to make up a company, create a logo, stationary set, and a series of ads. I have been interested in how we perceive colors and light ever since I picked up Josef Albers’s ‘Interaction of Color’. Since I am affected by a mild form of color blindness, I thought that would be an interesting domain to dive into.</p>
     </div><!--End column -->
     <div class="half column photo">
       <img src="images/grade/5.jpg">
     </div><!--End Column-->
-  </div><!--End Row ===============-->
-  <div class="row pull">
-    <div>
-      <h4>The word I picked was 'Grade'</h4>
-    </div>
   </div><!--End Row  ===============-->
   <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/grade/2XL.jpg   4185w,
+                      images/grade/2L.jpg   1920w,
+                      images/grade/2M.jpg  1200w,
+                      images/grade/2S.jpg  600w"
+              sizes="100vw"
+              src="images/grade/2M.jpg"
+              alt="Grade Poster" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row alpha">
     <div class="half column text">
-      <h3>Connotation</h3>
-      <p>The term grade can be used in many contexts as both a verb or a noun. The first use that came to mind for me was the grading systems that rate the difficulty of rock climbs. The word grade also has specific meanings in the fields of education, engineering, mathematics, and healthcare among others. By looking into the different applications of the word I was able to synthesize my own definition:</p>        
+      <h3>Vision</h3>
+      <p>I started by checking out as many books on vision and light reception as I could. I found books on everything from the physics of light, to Ophthalmology, and even a really old set of Ishihara plates. I started to learn about the types of color deficiencies and how the anatomy of the eye affect our perception of light. </p>        
     </div><!--End column -->
     <div class="half column photo">
       <img src="images/grade/6.gif">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
-  <div class="row pull">
-    <div>
-      <h4>The act of quantifying or qualifying an object in relation to its peers in order to make a usable ranking.</h4>
-    </div>
-  </div><!--End Row  ===============-->
-  <div class="row">
+  <div class="row omega">
     <div class="half column text">
-      <h3>Denotation</h3>
-      <p>Looking at the examples of grading were helpful when I was coming up with a definition, but they did’t provide a very helpful visual language to use for the poster. I decided to reevaluate the problem and the approach that I had taken so far by instead looking at the core act of grading. What does the concept of grading look like? I decided that the best way to represent grading was to demonstrate it on a set of objects. I needed something that was unique enough to distinguish between, yet was neutral enough to not distract from the concept. While walking to class, I realized that the gravel I was standing on would be perfect. </p>
+      <h3>Logo</h3>
+      <p>I explored quite a few options, but the direction that I thought worked best was one that hinted at some of the medical illustrations that I had seen. I wanted to find a way to actually represent the idea of color blindness in a simple way. In the logo I depicted light entering the eye as color, but hitting the retina as grey. </p>
     </div><!--End column -->
     <div class="half column photo">
       <img 
@@ -68,7 +70,7 @@
         alt="Grade Poster" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
-      <div class="row">
+  <div class="row">
     <div class="column photo">
             <img 
               srcset="images/grade/2XL.jpg   4185w,
@@ -81,10 +83,31 @@
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
+    <div class="column half photos">
+            <img 
+              srcset="images/grade/2XL.jpg   4185w,
+                      images/grade/2L.jpg   1920w,
+                      images/grade/2M.jpg  1200w,
+                      images/grade/2S.jpg  600w"
+              sizes="100vw"
+              src="images/grade/2M.jpg"
+              alt="Grade Poster" />
+    </div><!--End Column-->
+    <div class="column half photos">
+        <img 
+          srcset="images/grade/2XL.jpg   4185w,
+                  images/grade/2L.jpg   1920w,
+                  images/grade/2M.jpg  1200w,
+                  images/grade/2S.jpg  600w"
+          sizes="100vw"
+          src="images/grade/2M.jpg"
+          alt="Grade Poster" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
     <div class="half column text">
-      <h3>Process</h3>
-      <p>At this point the process was pretty straight forward: Scoop up a random selection of rocks, order them based on size, arrange the rocks in a grid, and photograph them. </p>
-      <p>In order to best present and showcase the concept, I wanted the poster to feel structured and quiet. To accomplish this, I took a formal approach to the page shape, spacing, and type by strictly implementing a ratio to create all of my measurements. I decided to light the rocks in a way that would highlight their individual details and bring out their differences.</p>
+      <h3>Ads</h3>
+      <p>I took the stance that if vision is a fundamental way of perceiving the world, then color blindness was an issue in perception. I wanted something that could be seen in multiple ways that was somehow related to color. I coincidentally was reminded of some old GI Joe Decoder graphics that used a red film to reveal a message. By matching the color of a film and printed ink, you can cancel out some of the image and enhance other bits. I had been playing with the idea of doing bus stop ads and trying to incorporate more of the context into the ads; the glass walls of a bus stop provided the perfect structure to try out this effect. I chose contradictory idioms to overlay and then spent a ton of time calibrating the colors needed by trial and error. The result was an ad whose message was quite different depending on how color interacted with it.</p>
       <span class="therefore">&there4;</span><!--Ending Tombstone-->
     </div><!--End column -->
     <div class="half column photo">
@@ -96,6 +119,46 @@
         sizes="(min-width: 800px) 50vw, 100vw"
         src="images/grade/4M.jpg"
         alt="Grade Poster" />  
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row pull">
+    <div>
+      <h4 class="quote">“It is a narrow mind which cannot look at a subject from various points of view.”</h4>
+      <h5><a href="">— George Eliot</a></h5>
+    </div><!--End column -->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column half photos">
+            <img 
+              srcset="images/grade/2XL.jpg   4185w,
+                      images/grade/2L.jpg   1920w,
+                      images/grade/2M.jpg  1200w,
+                      images/grade/2S.jpg  600w"
+              sizes="100vw"
+              src="images/grade/2M.jpg"
+              alt="Grade Poster" />
+    </div><!--End Column-->
+    <div class="column half photos">
+        <img 
+          srcset="images/grade/2XL.jpg   4185w,
+                  images/grade/2L.jpg   1920w,
+                  images/grade/2M.jpg  1200w,
+                  images/grade/2S.jpg  600w"
+          sizes="100vw"
+          src="images/grade/2M.jpg"
+          alt="Grade Poster" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/grade/2XL.jpg   4185w,
+                      images/grade/2L.jpg   1920w,
+                      images/grade/2M.jpg  1200w,
+                      images/grade/2S.jpg  600w"
+              sizes="100vw"
+              src="images/grade/2M.jpg"
+              alt="Grade Poster" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
 </div><!--End Content Container-->

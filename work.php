@@ -10,11 +10,11 @@
       </div> <!-- End column -->
       <div class="half column item scene_element slidedown">
         <ul>
-          <li><h2><a href="project.php" class="item" data-img="k.jpg">MARTA</a></h1></li>
-          <li><h2><a href="project.php" class="item" data-img="img.jpg">Grade</a></h1></li>
-          <li><h2><a href="project.php" class="item" data-img="final.jpg">Impact Alloy</a></h1></li>
-          <li><h2><a href="project.php" class="item" data-img="2.bmp">Hungry Otter</a></h1></li>
-          <li><h2><a href="project.php" class="item" data-img="1.bmp">Plains Peak</a></h1></li>
+          <li><h2><a href="project.php" class="item" data-img="1.jpg">MARTA</a></h1></li>
+          <li><h2><a href="grade.php" class="item" data-img="grade/1M.jpg">Grade</a></h1></li>
+          <li><h2><a href="project.php" class="item" data-img="2.jpg">Impact Alloy</a></h1></li>
+          <li><h2><a href="project.php" class="item" data-img="2.jpg">Hungry Otter</a></h1></li>
+          <li><h2><a href="project.php" class="item" data-img="1.jpg">Plains Peak</a></h1></li>
         </ul>
      </div> <!-- End column -->
     </div> <!-- End row  ===============-->

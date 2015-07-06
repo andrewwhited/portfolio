@@ -27,7 +27,7 @@
     <div class="half column text">
       <h3>The rise of MARTA</h3>
       <p>MARTA (Metropolitan Atlanta Rapid Transit Authority) is the primary public transportation system in Atlanta. As the 8th largest transportation service in the nation, MARTA transports over 420,000 passengers a day [wiki]. MARTA has both a subway system and a bus system that operate between 38 rail stations and over 100 bus lines.</p>
-      <p>Former Atlanta Mayor Sam Massell campaigned for MARTA and helped bring rapid transportation to the city. MARTA was the envy of other cities when it was initiated in 1972 and promised to connect Atlantans to the whole of their city, both work and play. The birth of MARTA represented a milestone for technology and development in Atlanta. </p>
+      <p>MARTA was the envy of other cities when it was initiated in 1972 and promised to connect Atlantians to the whole of their city, for both work and play. The birth of MARTA represented a milestone for technology and development in Atlanta. </p>
     </div><!--End column -->
     <div class="half column photo">
                <img 
@@ -179,7 +179,7 @@
   </div><!--End Row  ===============-->
   <div class="row pull">
   <div>
-    <h4 class="quote">A typog­ra­pher who hasn’t found the appro­pri­ate typeface may not have decreased the informational value of a text, but gave up the oppor­tu­nity to consid­er­ably increase its effectiveness.</h4>
+    <h4 class="quote">“A typog­ra­pher who hasn’t found the appro­pri­ate typeface may not have decreased the informational value of a text, but gave up the oppor­tu­nity to consid­er­ably increase its effectiveness.”</h4>
     <h5><a href="https://books.google.com/books/about/Legibility_Atmosphere_value_and_Forms_of.html?id=RZzgAAAAMAAJ">— G.W. Ovink</a></h5>
   </div><!--End column -->
 </div><!--End Row  ===============-->
@@ -214,7 +214,7 @@
   <div class="row">
     <div class="half column text">
       <h3>Icons</h3>
-      <p>Arguably, the most iconic part of a brand is the logo. It is the most explicit in identifying a company. I started with the idea that MARTA consists of two interconnected systems. The concepts of mobility, trust, movement, and modernity were important to the branding. </p>
+      <p>Since the icons would always be sitting next to type, I took inspiration from the typeface when I constructed the various icons that I needed. By deconstructing the letterforms, I was able to pull out key building blocks. I used the same curves and length ratios of Gotham in the icons. I then tested the icons with peers to make sure they properly communicated what the represented. </p>
     </div><!--End column -->
     <div class="half column photo">
                <img 
@@ -287,6 +287,170 @@
           sizes="100vw"
           src="images/colorBlind/5M.jpg"
           alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="half column text">
+      <h3>Bus Stops</h3>
+      <p>Both Former Mayor Sam Massell and Assistant General Manager Ryland McClendon mentioned the lack of public awareness and utilization of the bus network when I talked to them. Signs for bus stops are not impactful or visible enough and are often overlooked. My proposed bus stop signs aim to give the system a more tangible presence. The new designs also allow for more contextual information.</p>
+    </div><!--End column -->
+    <div class="half column photo">
+               <img 
+              srcset="images/colorBlind/14XL.jpg   4288w,
+                      images/colorBlind/14L.jpg   1920w,
+                      images/colorBlind/14M.jpg  1200w,
+                      images/colorBlind/14S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/14M.jpg"
+              alt="" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+    <div class="row">
+    <div class="column half photos">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+    <div class="column half photos">
+        <img 
+          srcset="images/colorBlind/5XL.jpg   2700w,
+                  images/colorBlind/5L.jpg   1920w,
+                  images/colorBlind/5M.jpg  1200w,
+                  images/colorBlind/5S.jpg  600w"
+          sizes="100vw"
+          src="images/colorBlind/5M.jpg"
+          alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="half column text">
+      <h3>Map</h3>
+      <p>MARTA’s current map sits somewhere between geographical accuracy and simplified abstraction. Most people have trouble recalling regular shapes (need citation). I redrew the map using simplified geometry and focused on decluttering information.</p>
+    </div><!--End column -->
+    <div class="half column photo">
+               <img 
+              srcset="images/colorBlind/14XL.jpg   4288w,
+                      images/colorBlind/14L.jpg   1920w,
+                      images/colorBlind/14M.jpg  1200w,
+                      images/colorBlind/14S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/14M.jpg"
+              alt="" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row pull">
+    <div>
+      <h4 class="quote">“You can't understand a city without using its public transportation system.”</h4>
+      <h5><a href="https://books.google.com/books/about/Legibility_Atmosphere_value_and_Forms_of.html?id=RZzgAAAAMAAJ">— G.W. Ovink</a></h5>
+    </div><!--End column -->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="half column text">
+      <h3>Vehicles</h3>
+      <p>The vehicles are a great platform to extend the visual identity system and bring recognition to the MARTA brand. Variations of color help the buses stand out in the traffic and the graphic treatment makes them more approachable.</p>
+    </div><!--End column -->
+    <div class="half column photo">
+               <img 
+              srcset="images/colorBlind/14XL.jpg   4288w,
+                      images/colorBlind/14L.jpg   1920w,
+                      images/colorBlind/14M.jpg  1200w,
+                      images/colorBlind/14S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/14M.jpg"
+              alt="" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+  <div class="half column text">
+    <h3>Digital</h3>
+    <p>A major problem that I have when suing MARTA is dealing with their website and mobile app. Obfuscated under layers of subpages and visual clutter, most of the important tasks a rider needed to preform are painful experiences. I spent time distilling out the most important features and reworking the sitemap.</p>
+  </div><!--End column -->
+  <div class="half column photo">
+             <img 
+            srcset="images/colorBlind/14XL.jpg   4288w,
+                    images/colorBlind/14L.jpg   1920w,
+                    images/colorBlind/14M.jpg  1200w,
+                    images/colorBlind/14S.jpg  600w"
+            sizes="100vw"
+            src="images/colorBlind/14M.jpg"
+            alt="" />
+  </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+  <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/colorBlind/4XL.jpg   2700w,
+                      images/colorBlind/4L.jpg   1920w,
+                      images/colorBlind/4M.jpg  1200w,
+                      images/colorBlind/4S.jpg  600w"
+              sizes="100vw"
+              src="images/colorBlind/4M.jpg"
+              alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
 </div><!--End Content Container-->

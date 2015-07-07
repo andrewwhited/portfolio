@@ -6,16 +6,12 @@
   <div class="row">
     <div class="half column title scene_element slidedown">
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
-      <h1>MARTA</h1>
+      <h1>MARTA<br/>Rebrand</h1>
     </div><!--End column -->
     <div class="half column title photo">
       <img 
-        srcset="images/colorBlind/1XL.gif   3241w,
-                images/colorBlind/1L.gif   1920w,
-                images/colorBlind/1M.gif  1200w"
-        sizes="(min-width: 800px) 50vw, 100vw"
-        src="images/colorBlind/1M.gif"
-        alt="CBRF Logo" />
+        src="images/marta/1.svg"
+        alt="MARTA Logo" />
     </div><!--End Comlumn-->
   </div><!--End Row ===============-->
 </div><!--End Hero Container-->
@@ -31,13 +27,13 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
+              srcset="images/marta/2XL.jpg   3000w,
+                      images/marta/2L.jpg   1920w,
+                      images/marta/2M.jpg  1200w,
+                      images/marta/2S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/14M.jpg"
-              alt="" />
+              src="images/marta/14M.jpg"
+              alt="MARTA Stop" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row pull">
@@ -46,41 +42,24 @@
       <h5><a href="https://en.wikipedia.org/wiki/Sam_Massell">— Sam Massell</a></h5>
     </div><!--End column -->
   </div><!--End Row  ===============-->
-  <div class="row">
+  <div class="row alpha">
     <div class="half column text">
       <h3>What went wrong?</h3>
       <p>Once a source of and awe pride for Atlanta, MARTA is now unfortunately more closely associated with crime and lack of upkeep to some. MARTA's interaction with its customers is hindered by dated aesthetics, inconsistent design, and ineffective and unclear communication.</p>        
       <p>MARTA feels far from modern. Its inconsistent typography illegible wayfinding, and clunky website and app devalue its brand.</p>
     </div><!--End column -->
     <div class="half column photo">
-      <img 
-        src="images/colorBlind/3.svg"
-        alt="Diagram" />
+          <img 
+            srcset="images/marta/3XL.jpg   2700w,
+                    images/marta/3L.jpg   1920w,
+                    images/marta/3M.jpg  1200w,
+                    images/marta/3S.jpg  600w"
+            sizes="100vw"
+            src="images/marta/3M.jpg"
+            alt="MARTA Train"/>
     </div><!--End Column-->
-  </div><!--End Row  ===============-->
-  <div class="row">
-    <div class="column half photos">
-            <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
-    </div><!--End Column-->
-    <div class="column half photos">
-        <img 
-          srcset="images/colorBlind/5XL.jpg   2700w,
-                  images/colorBlind/5L.jpg   1920w,
-                  images/colorBlind/5M.jpg  1200w,
-                  images/colorBlind/5S.jpg  600w"
-          sizes="100vw"
-          src="images/colorBlind/5M.jpg"
-          alt="Bus Stop Ad"/>
-    </div><!--End Column-->
-  </div><!--End Row  ===============-->
-  <div class="row">
+  </div><!--End Row 
+  <div class="row alpha omega">
     <div class="half column text">
       <h3>Who is MARTA for?</h3>
       <p>MARTA is a large system that interacts with an equally large demographic. The market can be segmented by frequency of use, time and direction of use, and destination. The three market slices that account for the majority of transit use are Workers, Students, and Occasional Users.</p>
@@ -104,34 +83,32 @@
         <li>Have an alternate option</li>
         <li>Going to airport, Braves games, etc.</li>
       </ul>
-    </div><!--End column -->
+    </div><!--End column 
     <div class="half column photo">
-      <img 
-        src="images/colorBlind/9.svg"
-        alt="" />  
-    </div><!--End Column-->
+        <img 
+            srcset="images/marta/4XL.jpg   2016w,
+                    images/marta/4L.jpg   1920w,
+                    images/marta/4M.jpg  1200w,
+                    images/marta/4S.jpg  600w"
+            sizes="100vw"
+            src="images/marta/4M.jpg"
+            alt="MARTA Passengers"/> 
+    </div><!--End Column
   </div><!--End Row  ===============-->
-  <div class="row">
-    <div class="column photo">
-            <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
-    </div><!--End Column-->
-  </div><!--End Row  ===============-->
-  <div class="row">
+  <div class="row omega">
     <div class="half column text">
       <h3>Opportunities</h3>
       <p>Some problems with MARTA are operational (the inevitable reduction of service and increase in fares due to economic restrictions), but by using clear, consistent, and engaging design throughout its touch points with riders MARTA can increase its ridership and its quality of user experience.</p>        
     </div><!--End column -->
     <div class="half column photo">
-      <img 
-        src="images/colorBlind/3.svg"
-        alt="Diagram" />
+          <img 
+            srcset="images/marta/4XL.jpg   2016w,
+                    images/marta/4L.jpg   1920w,
+                    images/marta/4M.jpg  1200w,
+                    images/marta/4S.jpg  600w"
+            sizes="100vw"
+            src="images/marta/4M.jpg"
+            alt="MARTA Passengers"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row pull">
@@ -146,35 +123,20 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
+              srcset="images/marta/5XL.jpg   4288w,
+                      images/marta/5L.jpg   1920w,
+                      images/marta/5M.jpg  1200w,
+                      images/marta/5S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/14M.jpg"
-              alt="" />
+              src="images/marta/5M.jpg"
+              alt="Type Tests" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
-    <div class="column half photos">
+    <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
-    </div><!--End Column-->
-    <div class="column half photos">
-        <img 
-          srcset="images/colorBlind/5XL.jpg   2700w,
-                  images/colorBlind/5L.jpg   1920w,
-                  images/colorBlind/5M.jpg  1200w,
-                  images/colorBlind/5S.jpg  600w"
-          sizes="100vw"
-          src="images/colorBlind/5M.jpg"
-          alt="Bus Stop Ad"/>
+              src="images/marta/6.svg"
+              alt="Gotham"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row pull">
@@ -183,60 +145,33 @@
     <h5><a href="https://books.google.com/books/about/Legibility_Atmosphere_value_and_Forms_of.html?id=RZzgAAAAMAAJ">— G.W. Ovink</a></h5>
   </div><!--End column -->
 </div><!--End Row  ===============-->
-<div class="row">
+<div class="row alpha">
     <div class="half column text">
       <h3>Logo</h3>
       <p>Arguably, the most iconic part of a brand is the logo. It is the most explicit in identifying a company. I started with the idea that MARTA consists of two interconnected systems. The concepts of mobility, trust, movement, and modernity were important to the branding. </p>
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/14M.jpg"
-              alt="" />
+              src="images/marta/1.svg"
+              alt="Logo" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
-  <div class="row">
-    <div class="column photo">
-            <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
-    </div><!--End Column-->
-  </div><!--End Row  ===============-->
-  <div class="row">
+  <div class="row omega">
     <div class="half column text">
       <h3>Icons</h3>
       <p>Since the icons would always be sitting next to type, I took inspiration from the typeface when I constructed the various icons that I needed. By deconstructing the letterforms, I was able to pull out key building blocks. I used the same curves and length ratios of Gotham in the icons. I then tested the icons with peers to make sure they properly communicated what the represented. </p>
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/14M.jpg"
-              alt="" />
+              src="images/marta/8.svg"
+              alt="Icon Parts" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
+              src="images/marta/9.svg"
+              alt="Icons"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
@@ -246,46 +181,46 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
+              srcset="images/marta/14XL.jpg   4288w,
+                      images/marta/14L.jpg   1920w,
+                      images/marta/14M.jpg  1200w,
+                      images/marta/14S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/14M.jpg"
+              src="images/marta/14M.jpg"
               alt="" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
     <div class="row">
     <div class="column half photos">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
     <div class="column half photos">
         <img 
-          srcset="images/colorBlind/5XL.jpg   2700w,
-                  images/colorBlind/5L.jpg   1920w,
-                  images/colorBlind/5M.jpg  1200w,
-                  images/colorBlind/5S.jpg  600w"
+          srcset="images/marta/5XL.jpg   2700w,
+                  images/marta/5L.jpg   1920w,
+                  images/marta/5M.jpg  1200w,
+                  images/marta/5S.jpg  600w"
           sizes="100vw"
-          src="images/colorBlind/5M.jpg"
+          src="images/marta/5M.jpg"
           alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
@@ -296,46 +231,46 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
+              srcset="images/marta/14XL.jpg   4288w,
+                      images/marta/14L.jpg   1920w,
+                      images/marta/14M.jpg  1200w,
+                      images/marta/14S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/14M.jpg"
+              src="images/marta/14M.jpg"
               alt="" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
     <div class="row">
     <div class="column half photos">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
     <div class="column half photos">
         <img 
-          srcset="images/colorBlind/5XL.jpg   2700w,
-                  images/colorBlind/5L.jpg   1920w,
-                  images/colorBlind/5M.jpg  1200w,
-                  images/colorBlind/5S.jpg  600w"
+          srcset="images/marta/5XL.jpg   2700w,
+                  images/marta/5L.jpg   1920w,
+                  images/marta/5M.jpg  1200w,
+                  images/marta/5S.jpg  600w"
           sizes="100vw"
-          src="images/colorBlind/5M.jpg"
+          src="images/marta/5M.jpg"
           alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
@@ -346,13 +281,25 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
+              srcset="images/marta/13XL.gif   3000w,
+                      images/marta/13L.gif   1920w,
+                      images/marta/13M.gif  1200w,
+                      images/marta/13S.gif  600w"
               sizes="100vw"
-              src="images/colorBlind/14M.jpg"
-              alt="" />
+              src="images/marta/14M.gif"
+              alt="Map Detail" />
+    </div><!--End Column-->
+  </div><!--End Row  ===============-->
+    <div class="row">
+    <div class="column photo">
+            <img 
+              srcset="images/marta/12XL.gif   4800w,
+                      images/marta/12L.gif   1920w,
+                      images/marta/12M.gif  1200w,
+                      images/marta/12S.gif  600w"
+              sizes="100vw"
+              src="images/marta/12M.gif"
+              alt="Map"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row pull">
@@ -368,36 +315,31 @@
     </div><!--End column -->
     <div class="half column photo">
                <img 
-              srcset="images/colorBlind/14XL.jpg   4288w,
-                      images/colorBlind/14L.jpg   1920w,
-                      images/colorBlind/14M.jpg  1200w,
-                      images/colorBlind/14S.jpg  600w"
-              sizes="100vw"
-              src="images/colorBlind/14M.jpg"
+              src="images/marta/7.svg"
               alt="" />
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/10XL.gif   4800w,
+                      images/marta/10L.gif   1920w,
+                      images/marta/10M.gif  1200w,
+                      images/marta/10S.gif  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
-              alt="Bus Stop Ad"/>
+              src="images/marta/10M.gif"
+              alt="Bus"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/11XL.gif   4800w,
+                      images/marta/11L.gif   1920w,
+                      images/marta/11M.gif  1200w,
+                      images/marta/11S.gif  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/11M.gif"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
@@ -408,48 +350,48 @@
   </div><!--End column -->
   <div class="half column photo">
              <img 
-            srcset="images/colorBlind/14XL.jpg   4288w,
-                    images/colorBlind/14L.jpg   1920w,
-                    images/colorBlind/14M.jpg  1200w,
-                    images/colorBlind/14S.jpg  600w"
+            srcset="images/marta/14XL.jpg   4288w,
+                    images/marta/14L.jpg   1920w,
+                    images/marta/14M.jpg  1200w,
+                    images/marta/14S.jpg  600w"
             sizes="100vw"
-            src="images/colorBlind/14M.jpg"
+            src="images/marta/14M.jpg"
             alt="" />
   </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
             <img 
-              srcset="images/colorBlind/4XL.jpg   2700w,
-                      images/colorBlind/4L.jpg   1920w,
-                      images/colorBlind/4M.jpg  1200w,
-                      images/colorBlind/4S.jpg  600w"
+              srcset="images/marta/4XL.jpg   2700w,
+                      images/marta/4L.jpg   1920w,
+                      images/marta/4M.jpg  1200w,
+                      images/marta/4S.jpg  600w"
               sizes="100vw"
-              src="images/colorBlind/4M.jpg"
+              src="images/marta/4M.jpg"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
   </div><!--End Row  ===============-->

@@ -6,7 +6,7 @@
   <div class="row">
     <div class="half column title scene_element slidedown">
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
-      <h1>Grade</h1>
+      <h1>IBM Design</h1>
     </div><!--End column -->
     <div class="half column title photo">
       <img 

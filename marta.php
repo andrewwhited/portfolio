@@ -22,7 +22,7 @@
   <div class="row">
     <div class="half column text">
       <h3>The rise of MARTA</h3>
-      <p>MARTA (Metropolitan Atlanta Rapid Transit Authority) is the primary public transportation system in Atlanta. As the 8th largest transportation service in the nation, MARTA transports over 420,000 passengers a day [wiki]. MARTA has both a subway system and a bus system that operate between 38 rail stations and over 100 bus lines.</p>
+      <p>MARTA <a href="https://en.wikipedia.org/wiki/Metropolitan_Atlanta_Rapid_Transit_Authority">(Metropolitan Atlanta Rapid Transit Authority)</a> is the primary public transportation system in Atlanta. As the 8th largest transportation service in the nation, MARTA transports over 420,000 passengers a day. MARTA has both a subway system and a bus system that operate between 38 rail stations and over 100 bus lines.</p>
       <p>MARTA was the envy of other cities when it was initiated in 1972 and promised to connect Atlantians to the whole of their city, for both work and play. The birth of MARTA represented a milestone for technology and development in Atlanta. </p>
     </div><!--End column -->
     <div class="half column photo">
@@ -177,7 +177,7 @@
   <div class="row">
     <div class="half column text">
       <h3>Wayfinding</h3>
-      <p>The main way that users interact with the design is though signage. The way finding for a major transportation system has a lot of functional requirements, architectural restrictions, and accessibility rules. The main responsibility of way finding signage is to help riders when they reach a decision point. A decision point could be using an elevator, going to a train platform, or transferring to a bus. I created flow charts to map the paths that a rider could take in order to find out where and what type of signs were needed. Each station has a different layout, so I rode around and documented studied the different stations.</p>
+      <p>The main way that users interact with the design is though signage. The wayfinding for a major transportation system has a lot of functional requirements, architectural restrictions, and accessibility rules. The main responsibility of way finding signage is to help riders when they reach a decision point. A decision point could be using an elevator, going to a train platform, or transferring to a bus. I created flow charts to map the paths that a rider could take in order to find out where and what type of signs were needed. Each station has a different layout, so I rode around and documented studied the different stations.</p>
     </div><!--End column -->
     <div class="half column photo">
                <img 

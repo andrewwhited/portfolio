@@ -58,7 +58,7 @@
                 images/impactAlloy/4L.jpg   1920w,
                 images/impactAlloy/4M.jpg  1200w,
                 images/impactAlloy/4S.jpg  600w"
-        sizes="(min-width: 800px) 50vw, 100vw"
+        sizes="100vw"
         src="images/impactAlloy/4M.jpg"
         alt="Impact Alloy Logo Card" />
     </div><!--End Column-->

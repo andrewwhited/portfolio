@@ -31,7 +31,7 @@
                       images/marta/2L.jpg   1920w,
                       images/marta/2M.jpg  1200w,
                       images/marta/2S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/14M.jpg"
               alt="MARTA Stop" />
     </div><!--End Column-->
@@ -54,7 +54,7 @@
                     images/marta/3L.jpg   1920w,
                     images/marta/3M.jpg  1200w,
                     images/marta/3S.jpg  600w"
-            sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
             src="images/marta/3M.jpg"
             alt="MARTA Train"/>
     </div><!--End Column-->
@@ -106,7 +106,7 @@
                     images/marta/4L.jpg   1920w,
                     images/marta/4M.jpg  1200w,
                     images/marta/4S.jpg  600w"
-            sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
             src="images/marta/4M.jpg"
             alt="MARTA Passengers"/>
     </div><!--End Column-->
@@ -127,7 +127,7 @@
                       images/marta/5L.jpg   1920w,
                       images/marta/5M.jpg  1200w,
                       images/marta/5S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/5M.jpg"
               alt="Type Tests" />
     </div><!--End Column-->
@@ -183,7 +183,7 @@
                <img 
               srcset="images/marta/21M.gif  1200w,
                       images/marta/21S.gif  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/21M.gif"
               alt="Wayfinding"/>
     </div><!--End Column-->
@@ -234,7 +234,7 @@
                <img 
               srcset="images/marta/25M.jpg  1200w,
                       images/marta/25S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/25M.jpg"
               alt="" />
     </div><!--End Column-->
@@ -246,7 +246,7 @@
                       images/marta/24L.gif   1920w,
                       images/marta/24M.gif  1200w,
                       images/marta/24S.gif  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/24M.gif"
               alt="Bus Stop Ad"/>
     </div><!--End Column-->
@@ -256,7 +256,7 @@
                   images/marta/23L.jpg   1920w,
                   images/marta/23M.jpg  1200w,
                   images/marta/23S.jpg  600w"
-          sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
           src="images/marta/23M.jpg"
           alt="Bus Stop Ad"/>
     </div><!--End Column-->
@@ -284,7 +284,7 @@
                       images/marta/13L.gif   1920w,
                       images/marta/13M.gif  1200w,
                       images/marta/13S.gif  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/marta/14M.gif"
               alt="Map Detail" />
     </div><!--End Column-->
@@ -304,7 +304,7 @@
   <div class="row pull">
     <div>
       <h4 class="quote">“You can't understand a city without using its public transportation system.”</h4>
-      <h5><a href="https://books.google.com/books/about/Legibility_Atmosphere_value_and_Forms_of.html?id=RZzgAAAAMAAJ">— G.W. Ovink</a></h5>
+      <h5><a href="http://www.amazon.com/Erol-Ozan/e/B003ODX868">— Erol Ozan</a></h5>
     </div><!--End column -->
   </div><!--End Row  ===============-->
   <div class="row">
@@ -354,7 +354,7 @@
                     images/marta/15L.gif   1920w,
                     images/marta/15M.gif  1200w,
                     images/marta/15S.gif  600w"
-            sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
             src="images/marta/15M.gif"
             alt="Web" />
   </div><!--End Column-->

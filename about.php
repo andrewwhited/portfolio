@@ -10,7 +10,14 @@
 	</div><!--End Row -->
     <div class="row">
 	    <div class="column photo">
-	    	<img src="images/me.jpg">
+	    	<img 
+        srcset="images/about/meXL.jpg   4288w,
+                images/about/meL.jpg   1920w,
+                images/about/meM.jpg  1200w,
+                images/about/meS.jpg  600w"
+        sizes="100vw"
+        src="images/about/meM.jpg"
+        alt="Andrew Whited" />
 	    </div><!--End Column-->
   	</div><!--End Row  ===============-->
 </div><!--End Hero Container-->
@@ -34,10 +41,10 @@
     </div><!--End Column-->
   </div><!--End Row ===============-->
   <div class="column places">
-    	<a href="http://www.ibm.com/design/" target="_blank" class="ibm"><?php include('images/IBM.php'); ?></a>
-    	<a href="http://austin.aiga.org/" target="_blank" class="aiga"><?php include('images/AIGA.php'); ?></a>
-    	<a href="http://www.iconologic.com/" target="_blank" class="icon"><?php include('images/ICON.php'); ?></a>
-    	<a href="http://digd.auburn.edu/graphicdesign/" target="_blank" class="gdes"><?php include('images/GDES.php'); ?></a>
+    	<a href="http://www.ibm.com/design/" target="_blank" class="ibm"><?php include('images/about/IBM.php'); ?></a>
+    	<a href="http://austin.aiga.org/" target="_blank" class="aiga"><?php include('images/about/AIGA.php'); ?></a>
+    	<a href="http://www.iconologic.com/" target="_blank" class="icon"><?php include('images/about/ICON.php'); ?></a>
+    	<a href="http://digd.auburn.edu/graphicdesign/" target="_blank" class="gdes"><?php include('images/about/GDES.php'); ?></a>
     </div><!--End column -->
   </div><!--End Row ===============-->
 </div><!--End Content Container-->

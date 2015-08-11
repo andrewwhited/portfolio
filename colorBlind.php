@@ -34,7 +34,7 @@
                       images/colorBlind/14L.jpg   1920w,
                       images/colorBlind/14M.jpg  1200w,
                       images/colorBlind/14S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/colorBlind/14M.jpg"
               alt="" />
     </div><!--End Column-->
@@ -83,7 +83,7 @@
                       images/colorBlind/11L.jpg   1920w,
                       images/colorBlind/11M.jpg  1200w,
                       images/colorBlind/11S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/colorBlind/11M.jpg"
               alt="" />
     </div><!--End Column-->
@@ -93,7 +93,7 @@
                   images/colorBlind/12L.jpg   1920w,
                   images/colorBlind/12M.jpg  1200w,
                   images/colorBlind/12S.jpg  600w"
-          sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
           src="images/colorBlind/12M.jpg"
           alt="" />
     </div><!--End Column-->
@@ -123,7 +123,7 @@
                       images/colorBlind/4L.jpg   1920w,
                       images/colorBlind/4M.jpg  1200w,
                       images/colorBlind/4S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
               src="images/colorBlind/4M.jpg"
               alt="Bus Stop Ad" />
     </div><!--End Column-->
@@ -133,7 +133,7 @@
                   images/colorBlind/5L.jpg   1920w,
                   images/colorBlind/5M.jpg  1200w,
                   images/colorBlind/5S.jpg  600w"
-          sizes="100vw"
+        sizes="(min-width: 800px) 50vw, 100vw"
           src="images/colorBlind/5M.jpg"
           alt="Bus Stop Ad" />
     </div><!--End Column-->
@@ -145,7 +145,7 @@
                       images/colorBlind/6L.jpg   1920w,
                       images/colorBlind/6M.jpg  1200w,
                       images/colorBlind/6S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 33vw, 100vw"
               src="images/colorBlind/6M.jpg"
               alt="Color Blind Research Foundation Ad" />
     </div><!--End Column-->
@@ -155,7 +155,7 @@
                       images/colorBlind/7L.jpg   1920w,
                       images/colorBlind/7M.jpg  1200w,
                       images/colorBlind/7S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 33vw, 100vw"
               src="images/colorBlind/7M.jpg"
               alt="Color Blind Research Foundation Ad" />
     </div><!--End Column-->
@@ -165,7 +165,7 @@
                       images/colorBlind/8L.jpg   1920w,
                       images/colorBlind/8M.jpg  1200w,
                       images/colorBlind/8S.jpg  600w"
-              sizes="100vw"
+        sizes="(min-width: 800px) 33vw, 100vw"
               src="images/colorBlind/8M.jpg"
               alt="Color Blind Research Foundation Ad" />
     </div><!--End Column-->

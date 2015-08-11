@@ -29,6 +29,7 @@
 
   </head>
 <body>
+<div class="copyright">&copy; Andrew Whited 2015</div>
 <div  id="main"  class="scene"><!--smoothstate container-->
   <!--This JS needs to be within the smoothstate container in order to fire once the page is switched out-->
     <script defer src="js/scripts.js"></script>

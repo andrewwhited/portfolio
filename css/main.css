@@ -203,6 +203,16 @@ p {
   fill:#a7a9ac;
 }
 
+/*Copyright*/
+.copyright{
+  position:fixed;
+  bottom:5px;
+  right:5px;
+  font-size:.5rem;
+  z-index: 10;
+  opacity:.2;
+}
+
 /*Index========================*/
 
 nav {

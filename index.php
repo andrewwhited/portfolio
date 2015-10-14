@@ -5,7 +5,7 @@
 		<div class="column header">
 			<a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
 			<nav>
-				<!--<a href="thoughts.php">Thoughts</a>-->
+				<a href="thoughts.php">Thoughts</a>
 				<a href="work.php">Work</a>
 				<a href="about.php">About</a>
 			</nav>

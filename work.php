@@ -10,7 +10,7 @@
       </div> <!-- End column -->
       <div class="half column item scene_element slidedown">
         <ul>
-          <li><h2><a href="ibm.php" class="item" data-img="ibm/1.svg">IBM Design</a></h1></li>
+          <!--<li><h2><a href="ibm.php" class="item" data-img="ibm/1.svg">IBM Design</a></h1></li>-->
           <li><h2><a href="marta.php" class="item" data-img="marta/1.svg">MARTA</a></h1></li>
           <li><h2><a href="grade.php" class="item" data-img="grade/1M.jpg">Grade</a></h1></li>
           <li><h2><a href="colorBlind.php" class="item" data-img="colorBlind/1M.gif">Color Blind Research</a></h1></li>

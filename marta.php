@@ -345,7 +345,7 @@
   <div class="row">
   <div class="half column text">
     <h3>Digital</h3>
-    <p>A major problem that I have when suing MARTA is dealing with their website and mobile app. Obfuscated under layers of subpages and visual clutter, most of the important tasks a rider needed to preform are painful experiences. I spent time distilling out the most important features and reworking the sitemap.</p>
+    <p>A major problem that I have when using MARTA is dealing with their website and mobile app. Obfuscated under layers of subpages and visual clutter, most of the important tasks a rider needed to preform are painful experiences. I spent time distilling out the most important features and reworking the sitemap.</p>
     <span class="therefore">&there4;</span><!--Ending Tombstone-->
   </div><!--End column -->
   <div class="half column photo">

@@ -442,6 +442,10 @@ img.lightbox, .photo:only-child img.lightbox {
   left: 0;
 }
 
+img{
+  cursor:crosshair;
+}
+
 /*keeps rest of page from scrolling while image is expanded*/
 .noScroll {
   overflow: hidden;

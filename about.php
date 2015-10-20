@@ -8,8 +8,8 @@
 			<a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
 		</div><!--End column -->
 	</div><!--End Row -->
-    <div class="row">
-	    <div class="column photo">
+    <div class="row aboutPhoto">
+	    <div class="column about photo">
 	    	<img 
         srcset="images/about/meXL.jpg   4288w,
                 images/about/meL.jpg   1920w,

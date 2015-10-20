@@ -49,7 +49,7 @@ $(document).ready(function() {
       //   e.preventDefault();
       // });
     });
-  $('.photo.title').on('click', function(e) {
+  $('.photo.title, .photo.about').on('click', function(e) {
       $(window).scrollTop(0);
       $('.container.scene_element').css('z-index','300');
     });

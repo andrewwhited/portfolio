@@ -442,6 +442,11 @@ img.lightbox, .photo:only-child img.lightbox {
   left: 0;
 }
 
+/*keeps rest of page from scrolling while image is expanded*/
+.noScroll {
+  overflow: hidden;
+}
+
 
 /*text blocks*/
 .text {

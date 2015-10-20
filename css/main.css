@@ -375,6 +375,7 @@ nav a:first-child{
 
 /*images*/
 
+
 .column.photo{
   display:block;
   padding:0;
@@ -426,6 +427,26 @@ nav a:first-child{
   height: auto;
 
 }
+
+/*expand image*/
+
+img.lightbox, .photo:only-child img.lightbox {
+  z-index: 2000;
+  position: fixed;
+  width: 90vw;
+  height:90vh;
+  padding:5vh 5vw;
+  object-fit:contain;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0;
+}
+
+/*keeps rest of page from scrolling while image is expanded*/
+.noScroll {
+  overflow: hidden;
+}
+
 
 /*text blocks*/
 .text {

@@ -37,3 +37,12 @@ $(document).ready(function() {
         $('.backdrop').css('background-image', 'url(images/'+ $(this).data('img') +')').addClass('visable');
     });
 });
+
+//lightbox images////////////////////////
+$(document).ready(function() {
+ $('.photo, .photos').on('click', function(e) {
+      $('img', this).toggleClass("lightbox"); //you can list several class names 
+      e.preventDefault();
+    });
+});
+

@@ -277,7 +277,7 @@
   <div class="row">
     <div class="half column text">
       <h3>Map</h3>
-      <p>MARTA’s current map sits somewhere between geographical accuracy and simplified abstraction. Most people have trouble recalling regular shapes (need citation). I redrew the map using simplified geometry and focused on decluttering information.</p>
+      <p>MARTA’s current map sits somewhere between geographical accuracy and simplified abstraction. Most people have trouble recalling regular shapes. I redrew the map using simplified geometry and focused on decluttering information.</p>
     </div><!--End column -->
     <div class="half column photo">
                <img 

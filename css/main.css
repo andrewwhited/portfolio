@@ -66,7 +66,7 @@ html {
   font-size: 62.5%; 
   background-color:#000; } 
 body {
-  font-size: 1.5em; /* currently ems because chrome bug misinterpreting rems on body element */
+  font-size: 1.5em; 
   line-height: 1.6;
   font-weight: 400;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -368,6 +368,21 @@ nav a:first-child{
   .row:last-child:not(:only-child) .text{
     order:2;
     -webkit-order:2;
+  }
+}
+
+/*scroll arrow*/
+
+.arrow {
+    display:none;
+  }
+
+@media (min-width: 799px) {
+  .arrow {
+    display: block;
+    fill:#f3f4f8;
+    height:1.2rem;
+    margin-top: 10vh;
   }
 }
 

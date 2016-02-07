@@ -37,3 +37,21 @@ $(document).ready(function() {
         $('.backdrop').css('background-image', 'url(images/'+ $(this).data('img') +')').addClass('visable');
     });
 });
+
+//lightbox images////////////////////////
+$(document).ready(function() {
+ $('.photo, .photos').on('click', function(e) {
+      $('img', this).toggleClass("lightbox"); //you can list several class names 
+      e.preventDefault();
+      $('body').toggleClass("noScroll");
+      // $('html, body').on('touchmove', function(e){
+      //   //prevent native touch activity like scrolling, not sure how to reinstate scrolling on click though
+      //   e.preventDefault();
+      // });
+    });
+  $('.photo.title, .photo.about').on('click', function(e) {
+      $(window).scrollTop(0);
+      $('.container.scene_element').css('z-index','300');
+    });
+});
+

@@ -29,7 +29,7 @@
     <div class="half column text">
       <h3>Who am I?</h3>
       <p>That is a surprisingly tough question to answer. <em>Who am I?</em> You could say I am an <a href="https://en.wikipedia.org/?title=INTP">INTP</a> or a <a href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">1 wing 9</a>, but that sounds too sterile. These little stats surely say something about me, yet they leave a lot out. The part that you probably care about is that I am a designer. At different times in my journey being a designer has meant pulling screenprints, stressing over type, interviewing people, debating with software architects, setting up studio lighting, and writing code. I am sure it will mean a lot of other things to me as I move forward. But that is the beauty of design, isn't it?</p>
-      <p><a href="#">Résumé</a></br>
+      <p><!-- <a href="#">Résumé</a></br> -->
          <a href="https://www.linkedin.com/in/andrewwhited">Linkedin</a></br>
          <a href="https://github.com/andrewwhited">Github</a></br></p>
     </div><!--End column -->

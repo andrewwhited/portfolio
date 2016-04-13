@@ -32,6 +32,7 @@
       <p><!-- <a href="#">Résumé</a></br> -->
          <a href="https://www.linkedin.com/in/andrewwhited">Linkedin</a></br>
          <a href="https://github.com/andrewwhited">Github</a></br></p>
+         <a href="https://medium.com/@andrewwhited">Medium</a></br></p>
     </div><!--End column -->
     <div class="half column contact">
     	<div class="info item">

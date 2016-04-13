@@ -5,7 +5,7 @@
 <div class="container scene_element slideleft">
   <div class="row">
     <div class="half column title photo">
-      <img src="images/testingTeaching/teachtest1.png">
+      <img src="images/testingTeaching/1.svg">
     </div>
     <div class="half column title  scene_element slidedown">
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
@@ -19,7 +19,14 @@
 <div class="container">
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/testingTeaching/ios.png">
+      <img 
+        srcset="images/testingTeaching/2L.jpg   1440w,
+                images/testingTeaching/2M.jpg  1200w,
+                images/testingTeaching/2S.jpg  600w"
+        sizes="(min-width: 800px) 50vw, 100vw"
+        src="images/testingTeaching/2M.jpg"
+        alt="iOS Beta Screens"
+        />
     </div><!--End Column-->
     <div class="half column text">
       <h3>An example</h3>
@@ -30,7 +37,7 @@
   </div><!--End Row ===============-->
     <div class="row omega">
     <div class="half column photo">
-      <img src="images/testingTeaching/why.png">
+      <img src="images/testingTeaching/3.svg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Why?</h3>
@@ -46,7 +53,7 @@
   </div><!--End Row  ===============-->
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/testingTeaching/flag.png">
+      <img src="images/testingTeaching/4.svg">
     </div>
     <div class="half column text">
       <h3>The user is always right…</h3>
@@ -55,7 +62,7 @@
   </div><!--End Row  ===============-->
   <div class="row omega">
     <div class="half column photo">
-      <img src="images/testingTeaching/switch.png">
+      <img src="images/testingTeaching/5.svg">
     </div>
     <div class="half column text">
       <h3>…except when they aren’t</h3>
@@ -64,7 +71,7 @@
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
-      <img src="images/testingTeaching/balance.png">
+      <img src="images/testingTeaching/6.svg">
     </div><!--End Column-->
   </div><!--End Row  ===============--> 
   <div class="row pull">
@@ -74,7 +81,7 @@
   </div><!--End Row  ===============-->
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/testingTeaching/diagram.png">
+      <img src="images/testingTeaching/7.svg">
     </div>
     <div class="half column text">
       <p>So where is the balance between user testing and designers trusting their expertise to make decisions? I think to answer this, we need to look at the process of creating. In Allen Hurlburt’s book, The Design Concept, he explains some of Freud’s theory with this diagram. The creative process is broken into steps. These steps take place in both the analytical and the intuitive parts of our brains. I believe the distinction between analytical decisions and intuitive decisions is a fitting one. We have analytical concerns: does this solve the actual problem? Do people understand it? Is it a minimal viable product? This analytical realm deals with binaries and objective truths. Users help us answer these questions. But that does not create great products alone. We cannot neglect the intuitive side of the creative process.</p>
@@ -82,7 +89,7 @@
   </div><!--End Row  ===============-->
   <div class="row omega">
     <div class="half column photo">
-      <img src="images/testingTeaching/arrow.png">
+      <img src="images/testingTeaching/8.svg">
     </div>
     <div class="half column text">
       <h3>Teachers of what?</h3>
@@ -97,7 +104,7 @@
   </div><!--End Row  ===============-->
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/testingTeaching/post.png">
+      <img src="images/testingTeaching/9.svg">
     </div>
     <div class="half column text">
       <p>Rand believes in the concept of ‘aesthetic development’ and sees designers as agents that can make it happen. When we push our audience past the familiar, we are changing their visual literacy. It is clear that our aesthetics have changed over time; our principals of beauty are constantly being reinvented and modified. Is this change in our visual literacy just simply change or is it progression? If progression, then what is it progressing towards? Progression implies a destination. When teaching our users, we need to know where the goal is.</p>
@@ -105,7 +112,7 @@
   </div><!--End Row  ===============-->
   <div class="row omega">
     <div class="half column photo">
-      <img src="images/testingTeaching/fonts.png">
+      <img src="images/testingTeaching/10.svg">
     </div>
     <div class="half column text">
       <h3>Where are we going?</h3>
@@ -115,12 +122,12 @@
   </div><!--End Row  ===============-->
   <div class="row">
     <div class="column photo">
-      <img src="images/testingTeaching/x.png">
+      <img src="images/testingTeaching/11.svg">
     </div><!--End Column-->
   </div><!--End Row  ===============-->
   <div class="row alpha">
     <div class="half column photo">
-      <img src="images/testingTeaching/box.png">
+      <img src="images/testingTeaching/12.svg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Solving for variables</h3>
@@ -129,12 +136,14 @@
   </div><!--End Row  ===============-->
   <div class="row omega">
     <div class="half column photo">
-      <img src="images/testingTeaching/user.png">
+      <img src="images/testingTeaching/13.svg">
     </div><!--End Column-->
     <div class="half column text">
       <h3>Setting Expectations</h3>
       <p>But what about teaching? If there is no single archetype of visual literacy, what then do we try to develop our users’ aesthetics into? What we teach is not to love helvetica or hate drop shadowed comic sans. Or even to prefer gracious white space. We need to step back from <em>what they like</em> and ask <em>why they like it.</em> We should be teaching users to appreciate bespoke and contextual design, because there are times that Helvetica is not the right choice. By learning why helvetica works in some scenarios, we are able to know why it won’t work in others. The way that we train users to care for and seek contextual designs is to keep serving them designs that cater to their unique needs and presumptions.<br><br>In some ways we need to teach our users to be spoiled. And if we are lucky, we will get users who hold us accountable and end up teaching us.</p>
       <span class="therefore">&there4;</span><!--Ending Tombstone-->
+      <p class="sig">Janruary 2016<br>
+      <a href="https://medium.com/@andrewwhited/user-testing-vs-user-teaching-c6a101d49472#.b6nz2y6vo">See on Medium</a></p>
     </div><!--End column -->
   </div><!--End Row  ===============-->
 </div><!--End Content Container-->

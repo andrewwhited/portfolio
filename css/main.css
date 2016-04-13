@@ -507,7 +507,15 @@ img{
   font-size: 3rem;
   color:#a7a9ac;
 }
+/*Ending Signature*/
+.sig, .sig a{
+  color:#a7a9ac;
+  font-style: italic;
+}
 
+.sig a:hover{
+color:#7c7f83;
+}
 
 /*work and Thouhgts pages========================*/
 .preview{

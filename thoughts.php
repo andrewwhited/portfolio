@@ -6,10 +6,8 @@
     <div class="row right">
       <div class="half column item  scene_element slidedown">
         <ul>
-          <li><h2><a href="essay.php" class="item" data-img="k.jpg">The Means to the Means to the End</a></h1></li>
-          <li><h2><a href="essay.php" class="item" data-img="img.jpg">User Testing Vs. User Teaching</a></h1></li>
-          <li><h2><a href="essay.php" class="item" data-img="a.png">A case for Comic Sans</a></h1></li>
-          <li><h2><a href="essay.php" class="item" data-img="2.bmp">The Underlying Determinism of Big Data</a></h1></li>
+          <li><h2><a href="teachingTesting.php" class="item" data-img="testingTeaching/1.svg">User Testing Vs. User Teaching</a></h2></li>
+          <li><h2><a href="#" class="item" data-img="a.png">More to come</a></h2></li>
         </ul>
      </div> <!-- End column -->
       <div class="half column preview">

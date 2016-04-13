@@ -10,6 +10,7 @@
     <div class="half column title  scene_element slidedown">
       <a href="index.php" class="logo"><?php include('images/logo.php'); ?></a>
       <h1>User Testing vs. <br>User Teaching</h1>
+      <?php include('images/arrow.php'); ?>
     </div><!--End column -->
   </div><!--End Row ===============-->
 </div><!--End Hero Container-->
